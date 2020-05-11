@@ -20,10 +20,9 @@ private int mId;
 
 
 @Nullable
-@ColumnInfo(name = "muriosityName")
+@ColumnInfo(name = "mCuriosityName")
 private String mName;
 
- private String mStyle;
  
  public Curiosity(@Nullable int importance, String description, int creationDate, String howDidYouNow) {
         mImportance = importance;
