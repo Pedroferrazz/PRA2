@@ -69,6 +69,6 @@ private String mName;
     }
   
     private String mCreationDate;
-
+    private int mImportance;
 
 }
